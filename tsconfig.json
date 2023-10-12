@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "downlevelIteration": true,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "declaration": true,
+    "moduleResolution": "node",
+    "declarationDir": "./dist",
+    "outDir": "./dist",
+    "rootDir": ".",
+    "lib": [
+      "ES2021.String",
+      "dom.iterable",
+      "dom"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": ["src"]
+}
